@@ -29,9 +29,9 @@ class App extends Component {
             listStyle: "none",
             justifyContent: "space-evenly",
           }}>
-            <li><NavLink to="/users">Users</NavLink></li>
-            <li><NavLink to="/courses">Courses</NavLink></li>
-            <li><NavLink to="/all-courses">All courses</NavLink></li>
+            <li><NavLink activeStyle={{color: "red"}} to="/users">Users</NavLink></li>
+            <li><NavLink activeStyle={{color: "red"}} to="/courses">Courses</NavLink></li>
+            <li><NavLink activeStyle={{color: "red"}} to="/all-courses">All courses</NavLink></li>
           </ul>
         </nav>
         <Switch>
